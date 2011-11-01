@@ -11,10 +11,10 @@
 }
 
 .mainContent{
-	width:800px;
+	width:880px;
 	text-align:left;
 	margin:auto;
-	border: dashed #999 thin; 
+	border: 1px dashed #999; 
 }
 
 .logo{
@@ -29,26 +29,98 @@
 }
 
 .footer{
-	padding-top:10px;
+	padding:15px;
 	text-align:center;
 	font-size:12px;
+	border: 1px dashed #999; 
 	border-left:none;
 	border-right:none;
 	border-bottom:none;
 }
 
-#navbar{
-	padding-left:0px;	
+.links{
+	list-style: none;	
+	padding-left:0px;
+}
+
+.links li{
+	padding:10px;
+}
+
+a{
+	text-decoration:underline;	
+}
+
+a:visited {
+    color:#000;
+}
+
+a:link {
+    color:#000;
+}
+
+a:hover {
+    color:#444;
+	text-decoration:underline;	
+}
+
+a:active {
+    color:#000;
+	text-decoration:underline;
+}
+
+#gameinfo h3{
+	margin-bottom:2px;
+	padding-left:15px;
+}
+
+#gameinfo td{
+	padding:10px;
+}
+
+#menu {
+    padding: 15px;
+    margin: 0;
 	border: dashed #999 thin; 
-	border-left:none;
-	border-right:none;
-	text-align:center;
+	border-left: none;
+	border-right: none;
 }
 
-#navlist li{
-	display: inline;
-	list-style-type: none;
-	padding-right: 30px;
-	margin-left:0px;
+#menu ul {
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
+#menu li {
+    display: inline;
+    list-style: none;
+    padding: 15px 10px 15px 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    padding: 5px;
+	border: 1px solid transparent; 
+}
+
+#menu a:hover {
+	border: 1px dashed #999; 
+	background-color:#EEE;
+}
+
+#menu a:visited {
+    color:#000;
+}
+
+#menu a:link {
+    color:#000;
+}
+
+#menu a:hover {
+    color:#000;
+}
+
+#menu a:active {
+    color:#000;
+}
