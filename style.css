@@ -29,13 +29,17 @@
 }
 
 .footer{
-	padding:15px;
 	text-align:center;
 	font-size:12px;
 	border: 1px dashed #999; 
 	border-left:none;
 	border-right:none;
 	border-bottom:none;
+	height:35px;
+}
+
+.footer div{
+	padding: 10px;	
 }
 
 .links{
